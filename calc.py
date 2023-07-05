@@ -131,7 +131,7 @@ def buton_multiply():
 	current = str(num)+str(e.get())
 	e.insert(0, current)
 
-""" Defines the rquals button.
+""" Defines the equals button.
 The button uses if functions to differentiate mathematical equations"""
 def button_equals():
 	second_number = e.get()
