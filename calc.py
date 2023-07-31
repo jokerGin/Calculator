@@ -2,14 +2,14 @@
 
 #Import the modules needed
 from tkinter import *
-from PIL import ImageTk, Image
+#from PIL import ImageTk, Image
 from math import sin, cos, tan, log , sqrt
 
 #Create the window
 root = Tk()
 #Set the title
 root.title('Custom Calculator')
-root.iconbitmap('favicon.ico')
+#root.iconbitmap('favicon.ico')
 #Make the window size fixed
 root.resizable(width=False, height=False)
 
